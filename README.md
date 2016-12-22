@@ -3,7 +3,7 @@ shell script for adjusting laptop monitor brightness on Ubuntu Xenial for non-fr
 
 ## using script with i3wm
 
-### appent to sudoers file
+### append to sudoers file
 
 `sudo vi /etc/sudoers`
 
@@ -13,7 +13,7 @@ Cmnd_Alias           CMDS = /path/to/setbrightness.sh
 ```
 [little article about SUID and sudoers file](http://askubuntu.com/a/167885)
 
-### appent to i3 config file
+### append to i3 config file
 
 `vi .config/i3/config`
 
